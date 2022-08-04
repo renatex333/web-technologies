@@ -1,0 +1,22 @@
+{% extends "facts/base.html" %}
+
+{% block content %}
+<h3>Fun Fact</h3>
+<form method="post">
+    {% csrf_token %}
+    <textarea
+        id="detalhes"
+        name="detalhes"
+    ></textarea>
+    <button type="submit">Submit</button>
+</form>
+<h3>Quantidade de Fun Facts cadastrados: {{counter}}</h3>
+<ul>
+    {% if counter == 0 %}
+        <li>Nenhum Fun Fact cadastrado</li>
+    {% endif %}
+    {% for fact in facts %} 
+        <li>{{fact.content}}</li>
+    {% endfor %} 
+</ul>
+{% endblock %}
