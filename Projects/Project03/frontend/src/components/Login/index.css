@@ -1,0 +1,90 @@
+.page {
+    display: flex;
+    justify-content: center;
+}
+.login-block {
+    background: #FF2442;
+    border-radius: 6rem;
+    margin: 2rem;
+    width: 40rem;
+    height: 75vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0.5rem 0.5rem rgba(0,0,0,0.19), 0 0.5rem 0.5rem rgba(0,0,0,0.23);
+}
+.login-text{
+    color: #fff;
+    margin-top: 3rem;
+    font-weight: bolder;
+}
+
+.form-block {
+    background: #fff;
+    border-radius: 4rem;
+    margin: 2rem;
+    width: 30rem;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0.5rem 0.5rem rgba(0,0,0,0.19), 0 0.5rem 0.5rem rgba(0,0,0,0.23);
+}
+
+.form-text {
+
+    color: #FF2442;
+    font-weight: bolder;
+    font-size: 1.7rem;
+
+}
+
+.btn{
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    text-align: center;
+    border-radius: .3rem;
+    background-color: #FF2442;
+    box-shadow: 0  0.4rem rgb(150, 0, 0);
+    margin: 1rem;
+    color: #fff;
+    font-size: large;
+    font-weight: 600;
+    }
+
+.btn:hover {
+    background-color: #a8182c;
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: #FF2442;
+    box-shadow: 0 0.2rem rgb(150, 0, 0);
+    transform: translateY(4px);
+}
+
+
+.login-message {
+    font-size: 0.8rem;
+}
+
+.create-account-href {
+    color: #3DB2FF;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #48484800;
+  }
+  
+input:focus {
+border: 3px solid #555;
+}

@@ -1,0 +1,39 @@
+.card {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  min-height: 350px;
+  margin: 10px 5px;
+  padding: 10px;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+  border-radius: 5px;
+  font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; 
+  background-color: #ffffff;
+}
+  
+.card-title {
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  color: #4c4c4c;
+  font-size: 1.5rem;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card-list li {
+  padding-top: 1.5rem;
+}
